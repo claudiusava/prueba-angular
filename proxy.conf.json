@@ -1,0 +1,8 @@
+{
+  "/api": {
+    "target": "https://csrng.net",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/api": "" }
+  }
+}
