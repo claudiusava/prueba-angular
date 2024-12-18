@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>Gestión de Polling</h1>
+
+    <button (click)="stopPolling()">Detener Polling</button>
+
+    <div>
+        <h3>Números obtenidos:</h3>
+        <ul>
+            <li *ngFor="let number of numbers">{{ number }}</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Suma de números primos:</h3>
+        <p>{{ primeSum }}</p>
+    </div>
+</div>
